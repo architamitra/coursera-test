@@ -1,0 +1,50 @@
+h1{
+  text-align:center;
+  font-size: 30px;
+  margin-top:20px;
+  margin-bottom: 50px;
+}
+
+	.box{
+	border:1px solid black;
+	box-sizing: border-box;
+	width: 30%;
+	height:20%;
+	margin-left: 20px;
+	display: inline;
+
+	}
+
+
+p{
+	font-size: 12px;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+
+
+
+.positioning{
+	font-size: 19px;
+	float: right;
+	box-sizing: border-box;
+	border-left:1px solid black;
+	border-bottom: 1px solid black;
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+	
+
+}
+#Chicken{
+background-color: pink;
+}
+
+#Beef{
+	background-color: red;
+}
+
+#Sushi{
+	background-color: yellow;
+}
