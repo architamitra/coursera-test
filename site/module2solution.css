@@ -5,16 +5,65 @@ h1{
   margin-bottom: 50px;
 }
 
-	.box{
+p {
+	padding: 5px;
+}
+
+.box{
 	border:1px solid black;
 	box-sizing: border-box;
-	width: 30%;
-	height:20%;
 	margin-left: 20px;
 	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	background-color: grey;
+	font-size: 12px;
+	color: white;
+}
 
+
+.box1 {
+	border:1px solid black;
+	box-sizing: border-box;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	background-color: grey;
+	font-size: 12px;
+	color: white;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	.box {
+		width: 40% !important;
+		height: 20% !important;
 	}
 
+	.box1 {
+
+		width: 82.5% !important;
+		height: 20% !important;
+	}
+}
+
+@media(min-width: 767px)
+{
+	.box, .box1 {
+		width: 90%;
+		height: 20%;
+	}
+}
+
+@media(min-width: 992px) {
+	.box, .box1 {
+		width: 30%;
+		height: 20%;
+	}
+}
 
 p{
 	font-size: 12px;
@@ -47,4 +96,5 @@ background-color: pink;
 
 #Sushi{
 	background-color: yellow;
+	color: black !important;
 }
